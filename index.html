@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Servidores WEB, DHCP Y DNS</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/icon.ico">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header id="header">
+            <nav id="generalNav">
+                <div id="headerConteiner">
+                    <div>
+                        <h2>WEB, DHCP Y DNS SERVERS</h2>
+                    </div>
+                    <button id="menuButton" type="button">
+                        MENU
+                    </button>
+                    <div>
+                        <ul>
+                            <li><a class="link-menu" href="#webServer">WEB SERVER</a></li>
+                            <li><a class="link-menu" href="#DHCPServer">DHCP SERVER</a></li>
+                            <li><a class="link-menu" href="#DNSServer">DNS SERVER</a></li>
+                            <li><a class="link-menu" href="#proxyServer">IP SERVER</a></li>
+                            <li><a class="link-menu" href="#dataBaseServer">DATABASE SERVER</a></li>
+                            <li><a class="link-menu" href="#contactSection">CONTACT</a></li>
+                            <li><a class="link-menu" href="#footer">ABOUT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section id="banner">
+            <img id="generalLogo" class="center-img"  src="assets/img/imgMainPortal.png">
+            <h1 class="horiz-center-text">WEB, DHCP Y DNS SERVERS</h1>
+            <p class="horiz-center-text">I AM:<br>DIANEY MARCELA MACIAS VARGAS </p>
+        </section>
+
+        <section id="informationSection">
+            <div id="webServer" class="marg-indiv-inform-sects">
+                <!-- Title-->
+                <h2>Web Server</h2>
+                <!-- Image-->
+                <img class="float-left-img" src="assets/img/portfolio/webDial.png">
+                <!-- Text-->
+                <p align="justify">A web server is a <b> software that is part of the server </b> and its main mission is to return information <b> (pages) </b> when it receives <b> petitions </b> from users.
+                For the correct functioning of a web server we need a <b> web client </b> that makes a <b> http or https </b> request
+                through a browser such as Chrome, Firefox or Safari and <b> a server </b> where the information is stored.
+                </p><br><br>
+
+                <p align="center"><b>Types of WEB Servers: </b> </p><br>
+                <p align = "justify"> <b> 1. Apache HTTP Server </b><br>
+                Apache  is <b> free and open source software,</b> which for years has been the most widely used software by web servers, currently rivaling Nginx. <br>
+                It also stands out for being <b> multiplatform </b>, being compatible with operating systems such as Linux, Window, IOS, Unix, etc. <br> <br>
+                <b> 2. Nginx Server </b> <br>
+                As with Apache, we would be facing a <b> open source and multiplatform </b> software compatible with Window, IOS, Linux, etc. It has a <b> paid version in addition to the free one. </b> <br > <br>
+                This type of web server is known for its  <b> good performance when it has to manage a high number of simultaneous visits </b>, since users do not perceive a delay in loading the page even though that </b>concurrent access is occurring. </b> <br> <br>
+                It is currently the <b> most used web server software in the world. </b> <br> <br>
+                <b> 3. LiteSpeed ​​</b> <br>
+                LiteSpeed ​​was born as a <b> replacement for Apache </b>, to improve the performance of the web server <b> in high traffic environments. </b> Like Nginx, it has a free version and a paid version. <br>
+                Currently performance tests do not indicate an improvement over Nginx. <br> <br>
+                <b> 4. Microsoft IIS Server </b> <br>
+                This type of web server is developed by <b> Microsof </b> t and, in the event that Microsoft tools need to be integrated, it would be a recommended alternative due to the compatibility we would obtain. <br>
+                It runs on Windows thanks to IIS (Internet Information Services) technology and is <b> compatible with pages programmed in ASP (Active Server Pages) or .NET </b>, unlike other web servers compatible with Linux. <br> <br>
+                <b> 5. Sun Java System Web Server </b> <br>
+                This type of server is intended for programmers who work with <b> Java, Python or Ruby. </b> <br>
+                It is a web server created to support a  <b> heavy workload </b> with very specific technologies such as Java.
+                </p> <br>   
+                <p class="infor-sect-ref">*https://www.webempresa.com/hosting/que-es-servidor-web.html
+                </p><br><br> 
+                <p align="justify">
+                    <a class="link-back-begin" href="#header"><b>Back to beginning</b></a>
+                </p>  
+            </div>
+
+            <div id="DHCPServer" class="marg-indiv-inform-sects border-secction">
+                <!-- Title-->
+                <h2 class="horiz-right-text">DHCP Server</h2>
+                <!-- Image-->
+                <img class="float-right-img" src="assets/img/portfolio/dhcpDial.png">
+                <!-- Text-->
+                <p align="justify"><span translate="no"><b>Dynamic Host Configuration Protocol </b> </span> or <span translate="yes">dynamic host configuration protocol</span> is an extension of the <b> Bootstrap (BOOTP) </b> protocol. The boot protocol, known by the acronym BOOTP for Boot Strap Protocol, is a UDP network protocol used by network clients to obtain an IP address automatically. <br> <br>
+
+                DHCP was developed as a solution for large networks, mobile computers and laptops and therefore complements BOOTP, among other things, for its ability to <b> automatically assign <u>reusable</u> network addresses </b> and by the existence of <b> additional configuration possibilities. </b> <br> <br>
+
+                The configuration parameters sent by the DHCP server are not valid for an indeterminate period of time, but for a "loan" time defined by the administrator known as <b> concession or rental of addresses <span translate="no">(lease time)</span> </b>. This indicates how long a device can access the network with that address. Before it expires (after half the time), clients have to request an extension of the lease by sending a new <b> DHCP REQUEST. </b>If it don't, the <b> DHCP <span translate="no"> refresh </span></b> does not take place and the server releases it accordingly.<br> <br>
+
+                This network protocol is based on a <b>client-server</b> model. In this scenario, a device (a laptop, mobile, etc.) requests, when connecting to a network, the IP configuration to a DHCP server through the ports <b> UDP 67 and 68 </b> (for IPv6 , ports <b> 546 and 547 </b>), which for its part consults in a database the addresses and assignable network parameters before giving an answer. Once the query is made, the server sends the following parameters to the client through the network: <br> <br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Unique <b> IP address </b> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <b> Subnet Mask </b> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <b> Standard Gateway </b> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <b> DNS </b> Servers <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Configuration <b> proxy </b> by WPAD (Web Proxy Auto-Discovery Protocol)
+                </p><br>
+                <p class="infor-sect-ref">*https://www.ionos.es/digitalguide/servidores/configuracion/que-es-el-dhcp-y-como-funciona/<br>
+                *https://es.wikipedia.org/wiki/Protocolo_de_arranque#:~:text=El%20<br>protocolo%20de%20arranque%2C%20conocido,definido<br>%20en%20el%20RFC%20951.
+                </p><br><br>
+                <p align="justify">
+                    <a class="link-back-begin" href="#header"><b>Back to beginning</b></a>
+                </p>        
+            </div>
+            
+            <div id="DNSServer" class="marg-indiv-inform-sects">
+                <!-- Title-->
+                <h2>DNS Server</h2>
+                <!-- Image-->
+                <img class="float-left-img" class="float-left-img" src="assets/img/portfolio/dnsDial.png">
+                <!-- Text-->
+                <p align="justify">The process of translating domain names into IP addresses is known as name resolution.<br><br>
+                <b>IP address:</b> 93.184.216.34<br>
+                <b>Domain:</b> www.example.es<br><br>
+
+                <img src="assets/img/FQDNstructure.png"> <br>
+
+                A DNS server, also known as a domain name system server or <span translate="no"> Domain Name System,</span> consists of <b>software for servers</b> that uses a <b>DNS database</b> to respond to requests that are related to the domain name space . As they are generally housed on dedicated hosts, the computers that host these programs are also called that.<br><br>
+
+                Every time a user registers a domain, a <b> WHOIS entry </b> is created in the corresponding registry and this is stored in DNS as a “resource record”. The database of a DNS server thus becomes the compilation of all the records in the zone of the domain namespace that it manages. <br> <br>
+
+                <b>The creation of the domain name system </b> in 1983 replaced the earlier resolution procedure, which was very error-prone and based on a <b> local hosts file. </b>  This <b> hosts.txt </b> file can still found today on UNIX-based systems in the <b> etc / </b> directory and, on Windows computers, in <b>% SystemRoot% \ system32 \ drivers \ etc. </b> <br> <br>
+
+                The <b> hosts.txt file required manual maintenance and regular updating, </b> an effort impossible as the Internet grew exponentially. Today, this file is used exclusively for the <b>classification of IP addresses in local networks. </b> It also allows blocking web servers by automatically redirecting their address to local hosting <span translate="no">(local host).</span> <br> <br>
+
+                On the other hand, a differentiation is usually made between primary and secondary DNS servers:<br><br>
+
+                <b> 1. Primary, Main or Master Server: </b> is a DNS server that stores the information about a certain zone of the domain namespace in its own database. <br> <br>
+
+                <b> 2. Secondary or Slave Server: </b> when the information of a name server does not come from its own zone files, but is second or third-hand. This situation occurs when a server cannot resolve a request with its own database and has to resort to the information available on another name server (recursive resolution). This DNS data is temporarily stored in local storage <span translate = "no"> (caching) </span> and are provided for future requests. Since the entries in the zone file itself may have changed in the meantime, information provided by secondary servers is not considered secure.
+                </p><br>
+                <p class="infor-sect-ref">*https://www.ionos.es/digitalguide/servidores/know-how/que-es-el-servidor-dns-y-como-funciona/
+                </p><br><br>
+                 <p align="justify">
+                    <a class="link-back-begin" href="#header"><b>Back to beginning</b></a>
+                </p>        
+            </div>
+
+             <div id="proxyServer" class="marg-indiv-inform-sects">
+             <!-- Title-->
+                <h2>Proxy Server</h2>
+                <!-- Image-->
+                <img class="float-right-img" src="assets/img/portfolio/proxyDial.png"/>
+                <!-- Text-->
+                <p align="justify">A proxy server acts as an <b>intermediary</b> between the connections of a <b>client and a destination server</b>, filtering all packets between the two. In this way, these types of servers are used to:  <br><br>
+
+                &nbsp;<b>1. Firewall:</b> A firewall is a type of network security system that acts as a barrier between a network and the Internet. Security professionals configure firewalls to block unwanted access to a network, often as a countermeasure against malware or hacker attacks. A proxy server located between a trusted network and the Internet is the perfect place to install a firewall that intercepts traffic before it <b>enters</b> the network, allowing you to decide whether to approve or block it.<br><br>
+                &nbsp;<b>2. Content Filters:</b> Just as proxy servers can regulate <b>incoming connection</b> requests through a firewall, they can also act as content filters and block unwanted outgoing traffic. Companies can configure proxy servers as content filters to prevent employees from accessing blocked websites from work.<br><br>
+                &nbsp;<b>3. Security: </b> In addition to containing firewalls, proxy servers can also enhance security by <b>acting as the exclusive public face of your network</b>. Seen from the outside, all network users are anonymous, as they are hidden behind the proxy's IP address. If a hacker wants to access a specific device on a network, it will cost much more to find it.<br><br>
+                &nbsp;<b>4. Shared Internet Connections: </b> Businesses (or even homes) with a single Internet connection can use a proxy server to funnel all of their devices through it.<br>
+                </p><br>
+                <p class="infor-sect-ref">*https://www.xataka.com/basics/que-es-un-proxy-y-como-puedes-utilizarlo-para-navegar-de-forma-mas-anonima<br>*https://www.avast.com/es-es/c-what-is-a-proxy-server#topic-2.<br>
+                </p><br><br> 
+                <p align="justify">
+                    <a class="link-back-begin" href="#header"><b>Back to beginning</b></a>
+                </p>
+            </div> 
+
+            <div id="dataBaseServer" class="marg-indiv-inform-sects">
+                <!-- Title-->
+                <h2>DataBase Server</h2>
+                <!-- Image-->
+                <img class="float-left-img" src="assets/img/portfolio/dataBaseDial.png">
+                <!-- Text-->
+                <p align="justify">A database server, also known as a <span translate="no">database server</span>, is a type of server software that enables the organization of information through the use of <b>tables, indexes, and records.</b><br><br>
+                At the hardware level, a database server is a computer equipment specialized in serving queries to remote or local clients that request information or make modifications to the records and tables that exist within the system databases (in many cases from a web or application server).<br><br>
+                If we go to the fundamental function of a database server, we will find that it is the service that <b>provides information to other web applications or computers / hosts</b>, as specified in the client server model.
+                </p><br> 
+                <p class="infor-sect-ref">*https://blog.infranetworking.com/servidor-base-de-datos/
+                </p><br><br>
+                 <p align="justify">
+                    <a class="link-back-begin" href="#header"><b>Back to beginning</b></a>
+                </p>    
+            </div>
+        </section>
+
+        <section id="contactSection">
+            <h2 class="horiz-center-text">CONTACT ME</h2>
+            <div id="formDiv">
+                <form id="contactForm" name="contactMe">
+                    <div class="bottom-border-inputs margin-bottom-inputs">
+                        <caption>Name*</caption><br>
+                        <input id="name" name="nameN" class="uppercase" type="text" placeholder="Enter your name" required="required" data-validation-required-message="Please enter your name.">
+                    </div>
+                    <div class="bottom-border-inputs margin-bottom-inputs">
+                        <caption>Last Name*</caption><br>
+                        <input id="lastName" name="lastNameN" class="uppercase" type="text" placeholder="Enter your name" required="required" data-validation-required-message="Please enter your last name.">
+                    </div>
+                    <div class="bottom-border-inputs margin-bottom-inputs">
+                        <caption>Email Address*</caption><br>
+                        <input id="email" type="email" name="emailN" placeholder="Enter your Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                    </div>
+                    <div class="bottom-border-inputs margin-bottom-inputs">
+                        <caption>Identification Number*</caption><br>
+                        <input id="identificationNumber" type="number" name="identificationNumberN" placeholder="Enter your Identification Number" data-validation-required-message="Please enter your identification number.">
+                    </div>
+                    <div class="bottom-border-inputs margin-bottom-inputs">
+                        <caption>Phone Number</caption><br>
+                        <input id="phoneNumber" name="phoneNumberN" type="tel" placeholder="Enter your Phone Number"  data-validation-required-message="Please enter your phone number.">
+                    </div>
+                    <div class="bottom-border-inputs margin-bottom-inputs">
+                        <caption>Birthday</caption><br>
+                        <input id="birthday" name="birthdayN" type="date" placeholder="Enter your Birthday"  data-validation-required-message="Please enter your birthday.">
+                    </div>
+                    <div class="bottom-border-inputs margin-bottom-inputs">
+                        <caption>Address and City</caption><br>
+                        <input id="addressAndCity"  name="addressAndCityN" type="text" placeholder="Enter your Address and City"  data-validation-required-message="Please enter your address and city.">
+                    </div>
+                    <div class="bottom-border-inputs margin-bottom-inputs">
+                        <label>Message*</label>
+                        <textarea id="message" name="messageN" rows="3" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                    </div>
+                    <div class="bottom-border-inputs margin-bottom-inputs">
+                        <input id="submit" name="submitN" type="submit" >
+                    </div>
+                </form>
+            </div>
+            <div id="formContentDiv">   
+                <h4 id="formContentTittle" class="horiz-center-text"></h4> 
+                <p id="formContentParagh"></p>
+            </div>
+        </section>
+
+        <!-- Footer-->
+        <footer id="footer">
+            <div id="footerMenu">
+                <ul>                        
+                    <li><a class="link-menu" href="#header">PAGE START</a></li>
+                    <li><a class="link-menu" href="#webServer">WEB SERVER</a></li>
+                    <li><a class="link-menu" href="#DHCPServer">DHCP SERVER</a></li>
+                    <li><a class="link-menu" href="#DNSServer">DNS SERVER</a></li>
+                    <li><a class="link-menu" href="#proxyServer">IP SERVER</a></li>
+                    <li><a class="link-menu" href="#dataBaseServer">DATABASE SERVER</a></li>
+                    <li><a class="link-menu" href="#contactSection">CONTACT</a></li>
+                </ul>
+            </div>
+            <div id="footerLocation">
+                <h4>Location</h4>
+                <p>Avenida Central del Norte 39-115, 150003<br />
+                Tunja, Boyacá, Colombia
+                </p>
+            </div>
+            <div>
+                <h4 >About This Web</h4>
+                <p>
+                This page is academic and aims to present a report about the WEB, DHCP and DNS servers, as well as indicate their way of installation, configuration and implementation.
+                </p>
+            </div>
+        </footer>
+    </body>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</html>

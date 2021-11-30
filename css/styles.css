@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/*!
+* AUTHOR: Dianey Marcela Macias Vargas;
+* Programación III 2021
+*/
+
+body{
+  margin: 0;
+}
+
+header, footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem; 
+  margin: 0;
+  color: #fff;
+  background-color: #2c3e50;
+}
+
+header {
+  /*!position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;*/
+}
+
+#generalNav{
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+}
+
+#headerConteiner{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+}
+
+.link-menu:link, .link-menu:visited, .link-menu:active {
+    text-decoration:none;
+    color: #fff;
+}
+
+.link-menu:hover {
+    text-decoration:none;
+    color: #1abc9c;
+}
+
+#banner{
+  padding-top: 8rem;
+  padding-bottom: 5rem; 
+  color: #fff;
+  background-color: #1abc9c;
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+
+#generalLogo{
+  margin-bottom: 3rem;
+  width: 15rem;
+}
+
+.horiz-center-text{
+  text-align: center;
+}
+
+.horiz-right-text{
+  text-align: right;
+}
+
+.center-img{
+  margin:0 auto;
+  display:block;
+}
+
+.float-left-img{
+  float: left;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.float-right-img{
+  float: right;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+p{
+  margin: auto;
+  font-size: 1rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1{
+  font-size: 2.75rem;
+  margin: 0;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+}
+
+h2{
+  font-size: 2.25rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h4{
+  font-size: 1.2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#webServer{
+  margin: 0 auto;
+}
+
+#menuButton{
+  font-family: inherit;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1abc9c;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-left: 10rem;
+}
+
+.link-back-begin:link, .link-back-begin:visited, .link-back-begin:active {
+  color: #1abc9c;
+}
+
+.link-back-begin:hover{
+  color: #2c3e50;
+}
+
+#informationSection{
+  padding-left: 7rem;
+  padding-right: 11rem;
+  padding-bottom: 5rem;
+}
+
+.marg-indiv-inform-sects{
+  margin-top: 5rem;
+}
+
+#DHCPServer{
+  border-top: 0.4rem solid #1037b5;
+}
+
+#DNSServer{
+  border-top: 0.4rem solid #ccb2a3;
+}
+
+#proxyServer{
+  border-top: 0.4rem solid #005375;
+}
+
+#dataBaseServer{
+  border-top: 0.4rem solid #000;
+}
+
+.infor-sect-ref{
+  font-size: 1rem;
+  text-align: right;
+  color: #9B9B9B;
+}
+
+#contactSection{
+  padding: 2rem 15rem;
+  background-color: #1abc9c;
+}
+
+#formDiv{
+  padding: 0rem 1rem;
+}
+
+.bottom-border-inputs{
+  border-bottom: 0.1rem solid #000;
+}
+
+.margin-bottom-inputs{
+  margin-bottom: 1.2rem;
+}
+
+input{
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  color: #000;
+  padding: 0.7rem;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+input::placeholder{
+  text-transform: capitalize;
+}
+
+textarea{
+   width: 100%;
+}
+
+footer{
+  padding: 3rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#footerMenu{
+  font-weight: 700;
+}
+
+#footerLocation{
+  border-top: 0.2rem solid #000;
+}
+
