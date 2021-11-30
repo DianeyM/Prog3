@@ -64,8 +64,12 @@ function updateForm(event){
 }
 
 function hideImage(event){
-    webServerImge.style.visibility = "hidden";
-    console.log("HideImage");
+    if (webServerImge.style.visibility == "visible") {        
+        webServerImge.style.visibility = "hidden";
+        console.log("HideImage");
+    } else
+        webServerImge.style.visibility = "visible";
+        console.log("showImage");
 }
 
 
