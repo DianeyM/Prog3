@@ -2,4 +2,4 @@
 
 This is a test proyect for Educational Purpose.
 
-Crear contenido de about.
+Crear contenido de about. (Hecho)
