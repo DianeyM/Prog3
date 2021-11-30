@@ -1,6 +1,8 @@
 /*!AUTHOR: Dianey Marcela Macias Vargas;Programación III 2021*/
 console.log("script loaded! =Prueba")
 var contactForm = document.getElementById("contactForm");
+var webServer = document.getElementById("webServer");
+var webServerImge = document.getElementById("webServerImge");
 
 /*contactForm.addEventListener("submit", function(event){
     event.preventDefault();
@@ -15,6 +17,7 @@ contactForm.addEventListener("submit", extractFormAsMatrix);
 contactForm.addEventListener("submit", extractFormAsJSONObject);
 contactForm.addEventListener("submit", showFormContent);
 contactForm.addEventListener("submit", updateForm);
+webServer.addEventListener('click', hideImage);
 
 function preventDefaultEvents(event){
     event.preventDefault();
@@ -58,6 +61,11 @@ function showFormContent(event){
 
 function updateForm(event){
     contactForm.reset();
+}
+
+function hideImage(event){
+    webServerImge.style.visibility = "hidden";
+    console.log("HideImage");
 }
 
 

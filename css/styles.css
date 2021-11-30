@@ -228,3 +228,6 @@ footer{
   border-top: 0.2rem solid #000;
 }
 
+.hidden-image:hover{
+  visibility:hidden;
+}
