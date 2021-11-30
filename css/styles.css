@@ -231,3 +231,8 @@ footer{
 .hidden-image:hover{
   visibility:hidden;
 }
+
+.twoColumns{
+  column-count:2;
+}
+  
