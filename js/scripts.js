@@ -1,8 +1,21 @@
 /*!AUTHOR: Dianey Marcela Macias Vargas;Programación III 2021*/
 console.log("script loaded! =Prueba")
 var contactForm = document.getElementById("contactForm");
+
 var webServer = document.getElementById("webServer");
 var webServerImge = document.getElementById("webServerImge");
+
+var DHCPServer = document.getElementById("DHCPServer");
+var DHCPServerImge = document.getElementById("DHCPServerImge");
+
+var DNSServer = document.getElementById("DNSServer");
+var DNSServerImage = document.getElementById("DNSServerImage");
+
+var proxyServer = document.getElementById("proxyServer");
+var proxyServerImage = document.getElementById("proxyServerImage");
+
+var dataBaseServer = document.getElementById("dataBaseServer");
+var dataBaseServerImage = document.getElementById("dataBaseServerImage");
 
 /*contactForm.addEventListener("submit", function(event){
     event.preventDefault();
@@ -17,7 +30,15 @@ contactForm.addEventListener("submit", extractFormAsMatrix);
 contactForm.addEventListener("submit", extractFormAsJSONObject);
 contactForm.addEventListener("submit", showFormContent);
 contactForm.addEventListener("submit", updateForm);
-webServer.addEventListener('click', hideImage);
+
+webServer.addEventListener('click', hideShowWebServImage);
+DHCPServer.addEventListener('click', hideShowDHCPServImage);
+DNSServer.addEventListener('click', hideShowDNSServImage);
+proxyServer.addEventListener('click', hideShowProxyServImage);
+dataBaseServer.addEventListener('click', hideShowDataBaseServImage);
+
+
+
 
 function preventDefaultEvents(event){
     event.preventDefault();
@@ -69,6 +90,51 @@ function hideImage(event){
         console.log("HideImage");
     } else
         webServerImge.style.visibility = "visible";
+        console.log("showImage");
+}
+
+function hideShowWebServImage(event){
+    if (webServerImge.style.visibility == "visible") {        
+        webServerImge.style.visibility = "hidden";
+        console.log("HideImage");
+    } else
+        webServerImge.style.visibility = "visible";
+        console.log("showImage");
+}
+
+function hideShowDHCPServImage(event){
+    if (DHCPServerImge.style.visibility == "visible") {        
+        DHCPServerImge.style.visibility = "hidden";
+        console.log("HideImage");
+    } else
+        DHCPServerImge.style.visibility = "visible";
+        console.log("showImage");
+}
+
+function hideShowDNSServImage(event){
+    if (DNSServerImage.style.visibility == "visible") {        
+        DNSServerImage.style.visibility = "hidden";
+        console.log("HideImage");
+    } else
+        DNSServerImage.style.visibility = "visible";
+        console.log("showImage");
+}
+
+function hideShowProxyServImage(event){
+    if (proxyServerImage.style.visibility == "visible") {        
+        proxyServerImage.style.visibility = "hidden";
+        console.log("HideImage");
+    } else
+        proxyServerImage.style.visibility = "visible";
+        console.log("showImage");
+}
+
+function hideShowDataBaseServImage(event){
+    if (dataBaseServerImage.style.visibility == "visible") {        
+        dataBaseServerImage.style.visibility = "hidden";
+        console.log("HideImage");
+    } else
+        dataBaseServerImage.style.visibility = "visible";
         console.log("showImage");
 }
 
