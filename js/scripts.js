@@ -84,7 +84,7 @@ function updateForm(event){
     contactForm.reset();
 }
 
-function hideImage(event){
+function hideShowImage(event){
     if (webServerImge.style.visibility == "visible") {        
         webServerImge.style.visibility = "hidden";
         console.log("HideImage");
