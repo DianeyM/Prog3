@@ -1,6 +1,8 @@
-# Prog3
+# Prog3 
 
-This is a test proyect for Educational Purpose.oK
+Brand Parcial_2
+
+This is a test proyect for Educational Purpose.
 
 -Crear contenido de about. (Hecho)
 
