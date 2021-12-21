@@ -178,7 +178,7 @@ h4{
 }
 
 #contactSection{
-  padding: 4rem 15rem;
+  padding: 4rem 13rem;
   background-color: #1abc9c;
 }
 
@@ -200,7 +200,7 @@ input{
   border: none;
   outline: none;
   color: #000;
-  padding: 0.7rem 0;
+  padding: 0.7rem 0.1rem;
 }
 
 .uppercase{
@@ -235,4 +235,3 @@ footer{
 .twoColumns{
   column-count:2;
 }
-
